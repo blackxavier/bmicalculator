@@ -74,29 +74,7 @@
    
             </form>
         </div>
-        {% if result %}
-        <div class="alert alert-success" role="alert">
-            <h4 class="alert-heading">Well done!</h4>
-            <p>Aww yeah, you successfully calculated your BMI.</p>
-            <p>BMI is calculated by - BMI = kg/m</p>
-            <hr>
-            <p class="mb-0">Your BMI is: {{ result }}</p>
-          </div>
-      
-        
-
-          {% else %}
-          <div class="alert alert-warning alert-dismissible fade show" role="alert">
-            <strong>Holy guacamole!</strong> {{ error }}
-            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-
-          {% endif %}
-      
-
-          
+       
 
 
 
